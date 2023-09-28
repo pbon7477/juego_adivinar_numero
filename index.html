@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de adivinar el número</title>
+</head>
+
+<body>
+    <h1>?</h1>
+    <h1 class="titulo">Adivina el número</h1>
+    <p>Introduce un número entre 1 y 25:</p>
+    <input type="number" id="numeroEntrada">
+    <button id="btnComprobar" class="btnComprobar" onclick="chequearResultado()">Comprobar</button>
+    <p id="mensaje">Encuentra el numero incognito antes de 5 intentos!!</p>
+    <p>Numero de Intentos: <span id="intentos"></span></p>
+    <p>Numeros Probados: <span id="probados"></span></p>
+    <div id="reset"></div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

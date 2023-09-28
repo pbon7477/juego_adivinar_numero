@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    background: #222;
+    color:#4CAF50;
+    margin:0;
+    padding:0;
+  }
+  
+  .titulo {
+    color: #068778;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #fcfcfc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  input {
+    width: 95px;
+    padding: 8px;
+    font-size: 16px;
+    margin: 0px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+  }
+  
+  .btnComprobar {
+    width: 105px;
+    padding: 8px 12px;
+    background-color:#067487;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    margin-left: -4px;
+  }
+
+  .btnComprobar:hover {
+    background-color: #034a57;
+   
+  }
+  .btnComprobarOut {
+    background-color: #3b3f40;
+  }
+  .btnComprobarOut:hover {
+    background-color: #3b3f40;
+  }
+
+  .btnReset {
+    width: 105px;
+    padding: 8px 12px;
+    background-color:#067487;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:10px 10px 10px 10px;
+    margin-left: -4px;
+  }
+
+  .btnReset:hover {
+    background-color: #034a57;
+   
+  }
+  
+  
+  #mensaje {
+    color: #daf0fa;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+  }
+
